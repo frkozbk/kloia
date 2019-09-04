@@ -1,0 +1,29 @@
+@font-face{
+  font-family: 'myFont';
+  src:url('./proximanova-webfont.ttf')
+}
+*{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  font-family: 'myFont', sans-serif;
+}
+html,body,#root{
+  width: 100%;
+  height: 100%;
+  background-color: #F9F9FA;
+}
+.container{
+  width: 100%;
+  padding: 60px 200px;
+  display: flex;
+  justify-content: center;
+  @media screen and (max-width:1240px) {
+      &{
+        width: 100%;
+        padding: 30px;
+        flex-direction: column;
+        align-items: center;
+      }
+  }
+}

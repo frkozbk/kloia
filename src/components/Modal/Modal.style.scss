@@ -1,0 +1,48 @@
+.modal{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(240, 240, 240, 0.85);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .modal-container{
+      width: 450px;
+      padding: 30px;
+      background-color: #fff;
+      z-index: 99;
+      display: flex;
+      flex-direction: column;
+      input{
+      display: block;
+      flex: 1;
+      background-color: rgb(228, 228, 228);
+      border: 0;
+      border-radius: 3px;
+      padding: 8px;
+      padding-left: 15px;
+      outline: 0;
+      margin-bottom: 20px;
+      ::placeholder{
+        color: #fff;
+        font-size: 11px;
+      }
+      };
+      input.inValid{
+        background-color: #081611;
+        caret-color: #fff;
+        color: #fff;
+        &::placeholder{
+          color:#fff;
+        }
+      }
+      button{
+        border: 0;
+        border-radius: 3px;
+        background-color: #00C45A;
+        color: #fff;
+        height: 30px;
+      }
+}
+}

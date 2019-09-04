@@ -1,0 +1,55 @@
+.subcribe{
+  width: 365px;
+  height: 45px;
+  border-radius: 22px;
+  background-color: #F9F9FA;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+  @media screen and (max-width:554px){
+    &{
+      width: 100%;
+    }
+  }
+  input{
+    display: block;
+    flex: 1;
+    background: transparent;
+    border: 0;
+    height: 100%;
+    padding-left: 25px;
+    outline: 0;
+    ::placeholder{
+      color: #fff;
+      font-size: 11px;
+  }
+    @media screen and (max-width:386px){
+    &{
+      max-width: 130px;
+    }
+  }
+  }
+  .subcribe-btn{
+    width: 85px;
+    height: 32px;
+    border: 0;
+    border-radius: 16px;
+    background-color: #00C45A;
+    color: #ffffff;
+    margin-left: auto;
+  }
+  .subcribe-btn.notValid{
+    color:#00C45A;
+    background-color:#ffffff ;
+  }
+}
+.subcribe.notValid{
+  background-color: #081611;
+  input::placeholder{
+    color: #fff;
+  }
+  input{
+    caret-color: #fff;
+    color:#fff;
+  }
+}

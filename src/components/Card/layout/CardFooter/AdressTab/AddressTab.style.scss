@@ -1,0 +1,25 @@
+.card-footer__image{
+  width: 127px;
+  height: 112px;
+  margin-right: 60px;
+  @media screen and (max-width:441px){
+    margin-bottom: 30px;
+  }
+}
+
+.card-footer__info{
+  .adress{
+  font-size: 12px;
+  color: #081611;
+  margin-bottom: 24px;
+}
+.change{
+  width: 73px;
+  height: 32px;
+  background-color: #00C45A;
+  color: #fff;
+  border: 0;
+  font-size: 11px;
+  border-radius: 16px;
+}
+}
