@@ -1,6 +1,7 @@
 @font-face{
   font-family: 'myFont';
-  src:url('./proximanova-webfont.ttf')
+  src:url('./proximanova-webfont.ttf');
+  font-display: swap;
 }
 *{
   margin: 0;
